@@ -1,6 +1,6 @@
 {
   "name": "observer-stack",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Wrap an observable so that only the top most observer receives notifications.",
   "main": "index.js",
   "scripts": {
