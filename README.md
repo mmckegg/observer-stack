@@ -3,7 +3,7 @@ observer-stack
 
 Wrap an observable so that only the top most observer receives notifications.
 
-## Install via [npm](https://npmjs.org/packages/observer-stack)
+## Install via [npm](https://npmjs.org/package/observer-stack)
 
 ```bash
 $ npm install observer-stack
