@@ -1,0 +1,32 @@
+{
+  "name": "observer-stack",
+  "version": "0.0.0",
+  "description": "Wrap an observable so that only the top most observer receives notifications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmckegg/observer-stack.git"
+  },
+  "keywords": [
+    "observ",
+    "stack",
+    "top",
+    "grab",
+    "observer",
+    "push",
+    "override"
+  ],
+  "author": "Matt McKegg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmckegg/observer-stack/issues"
+  },
+  "homepage": "https://github.com/mmckegg/observer-stack",
+  "devDependencies": {
+    "observ": "^0.2.0",
+    "tape": "^2.14.0"
+  }
+}
