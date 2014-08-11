@@ -2,7 +2,7 @@ module.exports = ObserverStack
 
 function ObserverStack(observable) {
     var listeners = []
-    var lastValue = null
+    var lastValue = observable()
 
     observer.remove = observable(notify)
 
